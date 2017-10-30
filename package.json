@@ -1,0 +1,31 @@
+{
+  "name": "react-playground",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-loader": "^0.28.7",
+    "extract-text-webpack-plugin": "^3.0.1",
+    "file-loader": "^1.1.5",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.6.0",
+    "webpack-dev-server": "^2.9.1"
+  },
+  "scripts": {
+    "dev": "webpack-dev-server",
+    "build": "webpack"
+  },
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "gsap": "^1.20.3",
+    "react": "^16.0.0",
+    "react-circular-progressbar": "^0.5.0",
+    "react-dom": "^16.0.0",
+    "react-loadable": "^5.3.1",
+    "react-router-dom": "^4.2.2",
+    "svg-react-loader": "^0.4.5"
+  }
+}

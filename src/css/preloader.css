@@ -1,0 +1,110 @@
+@keyframes fade1 {
+    0%   {opacity: 0;}
+    16%  {opacity: 1;}
+    32%  {opacity: 0;}
+    48%  {opacity: 0;}
+    64%  {opacity: 0;}
+    80%  {opacity: 0;}
+    100%  {opacity: 0;}
+}
+
+@keyframes fade2 {
+    0%   {opacity: 0;}
+    16%  {opacity: 0;}
+    32%  {opacity: 1;}
+    48%  {opacity: 0;}
+    64%  {opacity: 0;}
+    80%  {opacity: 0;}
+    100%  {opacity: 0;}
+}
+
+@keyframes fade3 {
+    0%   {opacity: 0;}
+    16%  {opacity: 0;}
+    32%  {opacity: 0;}
+    48%  {opacity: 1;}
+    64%  {opacity: 0;}
+    80%  {opacity: 0;}
+    100%  {opacity: 0;}
+}
+
+@keyframes fade4 {
+    0%   {opacity: 0;}
+    16%  {opacity: 0;}
+    32%  {opacity: 0;}
+    48%  {opacity: 0;}
+    64%  {opacity: 1;}
+    80%  {opacity: 1;}
+    100%  {opacity: 1;}
+}
+
+@keyframes fade5 {
+    0%   {opacity: 0;}
+    16%  {opacity: 0;}
+    32%  {opacity: 0;}
+    48%  {opacity: 0;}
+    64%  {opacity: 0;}
+    80%  {opacity: 1;}
+    100%  {opacity: 1;}
+}
+
+@keyframes fade6 {
+    0%   {opacity: 0;}
+    16%  {opacity: 0;}
+    32%  {opacity: 0;}
+    48%  {opacity: 0;}
+    64%  {opacity: 0;}
+    80%  {opacity: 1;}
+    100%  {opacity: 1;}
+}
+
+.layer1{
+  opacity:0;
+  animation-name:fade1;
+  animation-duration:3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;  
+}
+.layer2{
+  opacity:0;
+  animation-name:fade2;
+  animation-duration:3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;  
+}
+.layer3{
+  opacity:0;
+  animation-name:fade3;
+  animation-duration:3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;  
+}
+.layer4{
+  opacity:0;
+  animation-name:fade4;
+  animation-duration:3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-out;  
+}
+
+.layer5{
+  opacity:0;
+  animation-name:fade5;
+  animation-duration:3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease-out;  
+}
+
+.layer6{
+  opacity:0;
+  animation-name:fade6;
+  animation-duration:3s;
+  animation-fill-mode: forwards;
+  animation-iteration-count:infinite;
+  animation-timing-function: ease-out;  
+}
